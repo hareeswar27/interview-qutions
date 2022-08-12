@@ -1,0 +1,39 @@
+1.How many types of headings are there ?How to decide which to use where ?
+
+there are 6 types of headings are there
+they are:h1,h2,h3,h4,h5,h6
+eg- h1,h2,h3 we use for title or main top headings 
+
+2.Difference between block and inline?
+
+block elements always start in new line and they occupy entire line ,they dont allow other elements in there line
+inline elements are they will take space how much they required and they will allow other elements beside them
+
+3.Difference between em and strong?
+
+both are emphasis text em will show text in italic and strong will be bold.
+
+4.What are attributes?
+they are defined as which are used in between the tag of html by them we can change the nature of the element
+
+5.Difference between HTML tags and elements?
+
+html tags:  
+it is defined as it contain opening tag and closing tag in between there will be elements and atributes
+
+6. Difference between div and span?
+div is a block element they don't allow other elements in there line 
+span is a inline element  they occupy space what they require
+ 
+7.Difference between class and IDs?
+class defines a it can be used for infinite elements 
+id is defined as it can be use for a perticular element in hole html 
+
+8.What are self closing tags?
+these tags are defined as they don't hdave a closing tag and they have only opening tag  and they can be used everywhere in html
+
+9.Explain br tags?
+it is a self closing tag it will break line hoizonally
+it is a empty tag
+10.What are semantic tags?
+they will define tags what they mean
