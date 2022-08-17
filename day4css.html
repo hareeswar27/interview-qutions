@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .but{
+            color: white;
+            align-content: center;
+            width: 100px;
+            height: 30px;
+            position: relative;
+            left: 50%;
+            background-color: blue;
+        }
+        .hel{
+           font-style: italic;
+           font-family: Arial, Helvetica, sans-serif;
+           color: aqua; 
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: tomato;
+            transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        .cir{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(32, 237, 90);
+            border: 10px solid black;
+            border-radius: 50%;
+        }
+        .med{
+            font-size: 40px;
+        }
+        .box:hover{
+            background-color: aqua;
+        }
+        @media screen and (min-width:501px) and (max-width:1400px){
+            .med{
+                background-color: blue;
+                color:white ;
+            }
+            
+        }
+        .ani{
+            width: 100px;
+            height: 100px;
+            background-color: cornflowerblue;
+            animation-duration: 3s;
+            animation-name: hari;
+            animation-delay: 2s;
+
+        }
+        @keyframes hari{
+            from{
+                width: 100px;
+            height: 100px;
+            background-color: cornflowerblue;
+            }
+            to{
+                width: 200px;
+            height: 200px;
+            background-color: rgb(38, 57, 94);
+            }
+        }
+
+        .but1{
+            background-color: blue;
+            color: aliceblue;
+          
+        }
+        .hed{
+            background-image: url(./flower.jpg);
+        }
+        .parent{
+            display: grid;
+            grid-template-columns: auto auto;
+            width: 500px;
+            height: auto;
+
+        }
+        .child2{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+      .child3{
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+        box-shadow: 5px;
+      }
+      .parent2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      @media screen and (min-width:375px) and (max-width:600px){
+        .child3{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+      }
+    </style>
+    <h2>Replicate the button on Masthead of PrepBytes</h2>
+    <button class="but" style="background-color:blue;">enrol me</button>
+    <h2>Write a text and add any google font </h2>
+    <span class="hel">hello this is hari</span>
+    <h2>create a box and increase its width on hover , add transition on hover</h2>
+    <div class="box"></div>
+    <h2>Create a circle using border radius </h2>
+    <div class="cir"></div>
+    <h2>Write code to show implementation of media queries</h2>
+    <div class="med">hello hello hello hello hello hello hello hello hello hello hello hello hello hello  hello hello hello hello  hellohello hello</div>
+    <h2>Write code to show any animation example</h2>
+    <div class="ani"></div>
+    <h2>Create masterhead - add background image and put a text at the center , with button below it </h2>
+    <center>
+        <div class="hed">
+            <div>hello hello hello hello hello hello hello hello hello <br><br> hello hello hello hello hello  hello hello hello hello  hellohello hello</div>
+        <button class="but1">click here</button>
+        </div>
+    </center>
+    <h2>Create header -- left side will have logo and right side will have 4 button </h2>
+   <center>
+    <div class="parent">
+        <div class="child"><img src="./flower.jpg" width="50px" height="50px" alt=""></div>
+        <div class="child2">
+            <button class="but2">clik here</button>
+            <button class="but2">clik here</button>
+            <button class="but2">clik here</button>
+            <button class="but2">clik here</button>
+        </div>
+    </div>
+</center>
+<h2>
+    Create 3 cards of height & width 200 px with texts in it , the card should be horizontally placed in web view and vertically in mobile view
+</h2>
+<div class="parent2">
+    <div class="child3"></div>
+    <div class="child3"></div>
+    <div class="child3"></div>
+</div>
+</body>
+</html>
