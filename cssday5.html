@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dd1 p{
+            background-color: aqua;
+        }
+        div > p{
+            background-color: yellow;
+        }
+        .ha + p{
+            background-color: red;
+        }
+        .vv ~ p{
+            background-color: blue;
+                }
+                .box{
+                    width: 100px;
+                    height: 100px;
+                    background-color: aqua;
+                }
+                .box:hover{
+                    width: 200px;
+                    height: 200px; 
+                }
+                .an:active {
+  background-color: yellow;
+}
+body{
+    font-size: 30px;
+}
+.tex:disabled {
+  background: #d41f1f;
+}
+    </style>
+</head>
+<body>
+    <h2>What are CSS combinators </h2>
+    <h2>descendat selector</h2>
+    <div class="bb1">hello inside div</div>
+    <div class="dd1"><p>hi inside div</p>
+    <p>hi</p>
+    <p>hi inside div</p></div>
+<p>hello p out side</p>
+<hr>
+<h2>child selector</h2>
+<div>
+    <p>child selector</p>
+    <b>child selector</b>
+    <p>child selector</p>
+</div>
+<p>child selector</p>
+<div>ouside</div>
+<hr>
+<h2>Adjacent Sibling Selector</h2>
+<div class="ha">hello</div>
+<p>hwuhsh</p>
+<div class="ha">hello</div>
+<p>hwuhsh</p>
+<p>hwuhsh</p>
+<div class="ha">hello</div>
+<p>hwuhsh</p>
+<p>hwuhsh</p>
+<hr>
+<h2>General Sibling Selector</h2>
+<div class="vv">
+    <p>ndccd</p>
+    <p>ndccd</p>
+    <p>ndccd</p>
+    <p>ndccd</p>
+</div>
+<p>outside</p>
+<p>outside</p>
+<p>outside</p>
+<p>outside</p>
+<hr>
+<h2>What are pseudo selectors in CSS</h2>
+<div class="box">
+</div>
+<a href="" class="an">hello</a>
+<form action="">
+    <input class="tex" type="text" name="text"
+    placeholder="eneter"
+    disabled="disabled">
+</form>
+</body>
+</html>
